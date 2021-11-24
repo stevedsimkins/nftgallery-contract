@@ -1,0 +1,12 @@
+[programs.devnet]
+nftportal = "FGPzSz8qNsPTEnp1HrDvJZHCU8dqY1S5HUDqUipF2uAw"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/stevesimkins/.config/solana/id.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
